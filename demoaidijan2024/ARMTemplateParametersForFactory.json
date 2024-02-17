@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demoaidijan2024"
+		},
+		"LS_SQL_SourceDB_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_TargetDG_connectionString": {
+			"value": ""
+		},
+		"LS_Storage_demoaidijan2022_PR_accountKey": {
+			"value": ""
+		},
+		"LS_Storage_demoaidijan2024_PO_accountKey": {
+			"value": ""
+		},
+		"LS_Storage_demoaidijan2022_PR_properties_typeProperties_url": {
+			"value": "https://demo128bbwailer.dfs.core.windows.net/"
+		},
+		"LS_Storage_demoaidijan2024_PO_properties_typeProperties_url": {
+			"value": "https://demo128bbwailer.dfs.core.windows.net/"
+		},
+		"TRG_PL_Copy_File_Dynamic_Event_properties_PL_Copy_File_Dynamic_1_parameters_FileName1": {
+			"value": "@triggerBody().fileName"
+		},
+		"TRG_PL_Copy_File_Dynamic_Event_properties_typeProperties_scope": {
+			"value": "/subscriptions/32d45735-9eb0-4806-8486-0bb57953956e/resourceGroups/demo/providers/Microsoft.Storage/storageAccounts/demo128bbwailer"
+		}
+	}
+}
