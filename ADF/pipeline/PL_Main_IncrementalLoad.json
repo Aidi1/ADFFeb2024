@@ -1,7 +1,7 @@
 {
 	"name": "PL_Main_IncrementalLoad",
 	"properties": {
-		"description": "Configtable pipeline",
+		"description": "This pipeline will incrementally load data from source tables to target",
 		"activities": [
 			{
 				"name": "LKP_Config",
