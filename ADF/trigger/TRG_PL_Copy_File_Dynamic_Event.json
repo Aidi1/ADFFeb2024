@@ -1,0 +1,27 @@
+{
+	"name": "TRG_PL_Copy_File_Dynamic_Event",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Copy_File_Dynamic_1",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"FileName1": "@triggerBody().fileName"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/dataengineering2/blobs/source/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/32d45735-9eb0-4806-8486-0bb57953956e/resourceGroups/demo/providers/Microsoft.Storage/storageAccounts/demo128bbwailer",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

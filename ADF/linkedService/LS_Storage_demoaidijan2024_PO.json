@@ -1,0 +1,13 @@
+{
+	"name": "LS_Storage_demoaidijan2024_PO",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "My first linked service to move files from source to target",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://demo128bbwailer.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE1NjdDRjUzLUZCQkYtNDVBOC04QTE5LUU2NzNCRDAwNTk1Q19hYjA3Y2MxNS00OWMwLTQ1NzktYTQ2Zi01OTFlNDc0Y2JjYWIiDQp9"
+		}
+	}
+}

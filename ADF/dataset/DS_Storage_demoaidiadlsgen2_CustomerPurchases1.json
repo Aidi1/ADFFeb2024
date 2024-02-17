@@ -1,0 +1,25 @@
+{
+	"name": "DS_Storage_demoaidiadlsgen2_CustomerPurchases1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Storage_demoaidijan2024_PO",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "CustomerPurchases.csv",
+				"folderPath": "target",
+				"fileSystem": "dataengineering2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

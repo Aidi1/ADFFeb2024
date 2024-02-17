@@ -1,0 +1,9 @@
+{
+	"name": "demoaidijan2024",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6e2d4f27-fa67-4387-8d05-78ed7833116d",
+		"tenantId": "b8bbd86d-a05f-4654-a61a-4421dbb45655"
+	}
+}
